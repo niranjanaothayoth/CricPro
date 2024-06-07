@@ -5,10 +5,63 @@ body {
   margin: 0;
   padding: 0;
 }
+body {
+  background-image: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png');
+  background-size: cover;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-.logo {
-  text-align: center;
-  margin: 20px 0;
+.text-white {
+  color: #fff;
+}
+
+.bg-orange {
+  background-color: #ff6600 !important;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+}
+
+#playerDetails img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.player-name {
+  color: #0000ee;
+  text-decoration: none;
+}
+
+.player-name:hover {
+  text-decoration: underline;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.title h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #fff;
+}
+
+.title h2 {
+  font-size: 24px;
+  margin: 5px 0 0;
+  color: #fff;
 }
 
 .logo img {
@@ -29,9 +82,24 @@ body {
   text-align: center;
 }
 
-.score-table th {
-  background-color: #4caf50;
+.score-table .table-title {
+  background-color: #ff6600;
   color: white;
+  text-align: left;
+}
+
+.score-table .score {
+  background-color: #ff6600;
+  color: white;
+  text-align: right;
+}
+
+.score-table .sub-header {
+  background-color: #ffffff;
+}
+
+.score-table .sub-header th {
+  text-align: center;
 }
 
 .player-name {
